@@ -6,8 +6,8 @@ for (let i = 0; i < 16; i++ ) {
 }
 
 // while文の場合
-let i = 0;
-while (i < 16) {
+let i = -1;
+while (i < 15) {
   i++
-  console.log(holidays[i]);
+  console.log(holidays[ i ]);
 }
